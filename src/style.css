@@ -144,7 +144,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #1f233c !important;
+    background-color: #6b76ab !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #331c5b;
+  background: #1f2c72;
   bottom: 1px;
   left: 0;
   z-index: -1;
