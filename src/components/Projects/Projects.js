@@ -52,12 +52,22 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFnxzcDtCPj3wydMjBS6weQbC3XexKa-Y11_UCCh_lpg&s"
+              imgPath="https://assets.ccbp.in/frontend/react-js/logo-img.png"
               isBlog={false}
               title="JobbyApp"
               description="a sleek job search platform crafted with ReactJS, designed to streamline your job hunt with ease. With its intuitive user interface and responsive design, ReactJobs offers a seamless experience for both job seekers and recruiters. Explore a vast array of fake job listings to simulate real-world scenarios and hone your search skills. Start your journey towards your dream career today with ReactJobs!"
               ghLink="https://github.com/Praveeenmain/JobbyAppPraveen"
               demoLink="https://jobiepraveen98.ccbp.tech/login"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://evobuz.vercel.app/static/media/Logo.ef0ba09f02361b4751a6.png"
+              isBlog={false}
+              title="Evobuz"
+              description="Evobuz is a full-stack event booking and e-commerce platform built with React.js, Node.js, MongoDB, and Firebase. It allows vendors to sell products and manage events, while customers can book events and make purchases seamlessly. The platform includes an admin dashboard for managing users, vendors, and transactions. We integrated Twilio for notifications, Razorpay for secure payments, and Email.js for automated emails. This project showcases my expertise in full-stack development, third-party integrations, and scalable architecture. 🚀"
+              ghLink="https://github.com/Praveeenmain/evocus.git"
+              demoLink="https://evobuz.vercel.app/"              
             />
           </Col>
 
