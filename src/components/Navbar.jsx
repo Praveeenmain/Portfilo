@@ -7,13 +7,12 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-gray-200 px-4 lg:px-6 py-3 shadow-sm">
+    <nav className="bg-white border-b border-gray-200 px-4 lg:px-6 py-3">
       <div className="flex justify-between items-center">
         <div className="flex items-center lg:hidden">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="text-gray-600 hover:text-blue-600 focus:outline-none"
-            aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -22,13 +21,13 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="hidden lg:flex lg:items-center">
+        <div className="hidden lg:block lg:w-96">
           <div className="relative flex items-center">
             <Search size={18} className="absolute left-3 text-gray-400" />
             <input
               type="text"
-              placeholder="Search..."
-              className="pl-10 pr-4 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-64"
+              placeholder="Search projects..."
+              className="pl-10 pr-4 py-2 w-full border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
         </div>
@@ -37,13 +36,13 @@ const Navbar = () => {
           <button className="relative p-2 text-gray-600 hover:text-blue-600">
             <Bell size={20} />
             <span className="absolute top-1 right-1 flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+              <span className="absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75 animate-ping"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
             </span>
           </button>
           <div className="flex items-center">
             <img
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              src="/lovable-uploads/4d95e0de-e385-4537-bd3a-57ae923566b8.png"
               alt="Profile"
               className="h-8 w-8 rounded-full border-2 border-white shadow-sm"
             />
@@ -51,7 +50,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile navigation menu */}
       {mobileMenuOpen && (
         <div className="lg:hidden mt-2">
           <div className="flex flex-col space-y-2 px-2 pt-2 pb-3">
