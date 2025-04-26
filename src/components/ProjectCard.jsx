@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Github, ExternalLink, Youtube } from 'lucide-react';
 
@@ -9,9 +8,9 @@ const ProjectCard = ({ project }) => {
         <img 
           src={project.image} 
           alt={project.title} 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover max-h-[200px]"
         />
-        <div className="absolute top-0 right-0 bg-blue-600 text-white px-2 py-1 text-xs font-medium rounded-bl-lg">
+        <div className="absolute top-0 right-0 bg-gradient-to-l from-blue-600 to-green-400 text-white px-2 py-1 text-xs font-medium rounded-bl-lg">
           {project.category}
         </div>
       </div>
