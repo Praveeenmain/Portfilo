@@ -13,7 +13,7 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
 } from '../components/ui/sidebar';
-
+import GitHubCalendar from 'react-github-calendar';
 const Dashboard = () => {
   const featuredProjects = projectsData.slice(0, 3);
   
@@ -116,6 +116,40 @@ const Dashboard = () => {
               ))}
             </div>
           </section>
+
+          <section className="bg-white rounded-xl shadow-sm p-6 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+            {`Kasiralla Praveen Kumar`} <span className="text-orange-500">LeetCode</span> Stats
+          </h2>
+          <div className="flex justify-center">
+            <img
+              src="https://leetcard.jacoblin.cool/vXvWW4XRAQ?theme=light&font=Baloo+Bhai+2"
+              alt="LeetCode Stats"
+              className="w-full max-w-md"
+            />
+          </div>
+        </section>
+          <section className="bg-white rounded-xl shadow-sm p-6 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+            Days I <span className="text-purple-500">Code</span> on GitHub
+          </h2>
+          <div className="flex justify-center">
+            <GitHubCalendar
+              username="Praveeenmain"
+              blockSize={15}
+              blockMargin={5}
+              color="#c084f5"
+              fontSize={16}
+            />
+          </div>
+        </section>
+        
+
+
+
+
+
+
         </main>
       </div>
     </SidebarProvider>

@@ -1,6 +1,6 @@
 
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, FolderGit2, User, Mail, Github, Linkedin, Youtube, Code } from 'lucide-react';
+import { LayoutDashboard, FolderGit2, User, Mail, Github, Linkedin, Youtube,Instagram } from 'lucide-react';
 
 const Sidebar = () => {
   const location = useLocation();
@@ -50,17 +50,17 @@ const Sidebar = () => {
 
       <div className="px-3 py-4 border-t border-gray-200">
         <div className="flex justify-around">
-          <a href="https://github.com/praveenkumar" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
+          <a href="https://github.com/Praveeenmain" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
             <Github size={20} />
           </a>
-          <a href="https://linkedin.com/in/praveenkumar" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
+          <a href="https://www.linkedin.com/in/kasiralla-praveenkumar-b201a9241/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
             <Linkedin size={20} />
           </a>
-          <a href="https://youtube.com/@praveenkumar" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
+          <a href="https://www.youtube.com/@PraveenUnfiltered-11" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
             <Youtube size={20} />
           </a>
-          <a href="https://notes-classiferfrontend.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
-            <Code size={20} />
+          <a href="https://www.instagram.com/praveenunflitered/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900">
+            <Instagram size={20} />
           </a>
         </div>
       </div>

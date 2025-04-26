@@ -181,7 +181,7 @@ const Contact = () => {
             
             <div className="grid grid-cols-2 gap-4">
               <a
-                href="https://github.com/praveenkumar"
+                href="https://github.com/Praveeenmain"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
@@ -194,7 +194,7 @@ const Contact = () => {
               </a>
               
               <a
-                href="https://linkedin.com/in/praveenkumar"
+                href="https://www.linkedin.com/in/kasiralla-praveenkumar-b201a9241/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
@@ -207,7 +207,7 @@ const Contact = () => {
               </a>
               
               <a
-                href="https://youtube.com/@praveenkumar"
+                href="https://www.youtube.com/@PraveenUnfiltered-11"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center p-4 bg-red-50 rounded-lg hover:bg-red-100 transition-colors"
@@ -220,7 +220,7 @@ const Contact = () => {
               </a>
               
               <a
-                href="https://instagram.com/praveenkumar"
+                href="https://www.instagram.com/praveenunflitered/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center p-4 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors"
@@ -232,6 +232,8 @@ const Contact = () => {
                 </div>
               </a>
             </div>
+
+
             
             <div className="pt-4 border-t border-gray-200">
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Project Collaboration</h3>

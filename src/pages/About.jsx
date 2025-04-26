@@ -48,53 +48,74 @@ const About = () => {
             </p>
           </div>
           
-          <div className="mt-6 flex flex-wrap gap-4">
-            <a 
-              href="https://github.com/praveenkumar" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
-            >
-              <Github size={18} className="mr-2" />
-              GitHub
-            </a>
-            <a 
-              href="https://linkedin.com/in/praveenkumar" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <Linkedin size={18} className="mr-2" />
-              LinkedIn
-            </a>
-            <a 
-              href="https://youtube.com/@praveenkumar" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
-            >
-              <Youtube size={18} className="mr-2" />
-              YouTube
-            </a>
-            <a 
-              href="https://instagram.com/praveenkumar" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:opacity-90 transition-opacity"
-            >
-              <Instagram size={18} className="mr-2" />
-              Instagram
-            </a>
-          </div>
+          <div className="grid grid-cols-2 gap-4">
+              <a
+                href="https://github.com/Praveeenmain"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
+              >
+                <Github className="h-6 w-6 text-gray-800 mr-3" />
+                <div>
+                  <p className="font-medium text-gray-800">GitHub</p>
+                  <p className="text-sm text-gray-500">View my repositories</p>
+                </div>
+              </a>
+              
+              <a
+                href="https://www.linkedin.com/in/kasiralla-praveenkumar-b201a9241/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
+              >
+                <Linkedin className="h-6 w-6 text-blue-700 mr-3" />
+                <div>
+                  <p className="font-medium text-gray-800">LinkedIn</p>
+                  <p className="text-sm text-gray-500">Professional network</p>
+                </div>
+              </a>
+              
+              <a
+                href="https://www.youtube.com/@PraveenUnfiltered-11"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center p-4 bg-red-50 rounded-lg hover:bg-red-100 transition-colors"
+              >
+                <Youtube className="h-6 w-6 text-red-600 mr-3" />
+                <div>
+                  <p className="font-medium text-gray-800">YouTube</p>
+                  <p className="text-sm text-gray-500">Watch my videos</p>
+                </div>
+              </a>
+              
+              <a
+                href="https://www.instagram.com/praveenunflitered/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center p-4 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors"
+              >
+                <Instagram className="h-6 w-6 text-purple-600 mr-3" />
+                <div>
+                  <p className="font-medium text-gray-800">Instagram</p>
+                  <p className="text-sm text-gray-500">Follow my journey</p>
+                </div>
+              </a>
+            </div>
+
+
+      
+      
+      
         </div>
         
         <div className="lg:col-span-1">
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 h-full">
-            <img 
-              src="/lovable-uploads/4d95e0de-e385-4537-bd3a-57ae923566b8.png"
-              alt="Praveen Kumar" 
-              className="w-full h-64 object-cover"
-            />
+          <iframe
+  src="https://drive.google.com/file/d/1iUke-QTJpHt0mm8rAZrgCIdd8rwVGP2J/preview"
+  title="Praveen Kumar Resume"
+  className="w-full h-64"
+/>
+
             
             <div className="p-6">
               <h2 className="text-xl font-bold text-gray-800 mb-2">Praveen Kumar Kasiralla</h2>

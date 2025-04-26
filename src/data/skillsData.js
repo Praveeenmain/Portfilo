@@ -1,4 +1,3 @@
-
 export const skillsData = [
   {
     name: "React.js",
@@ -73,6 +72,11 @@ export const skillsData = [
   {
     name: "Time Management",
     category: "Soft Skills",
+    bgColor: "bg-gray-50 text-gray-600"
+  },
+  {
+    name: "DSA",
+    category: "Problem Solvig Skills",
     bgColor: "bg-gray-50 text-gray-600"
   }
 ];

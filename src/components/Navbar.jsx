@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Bell, Menu, X } from 'lucide-react';
+import { Bell, Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,22 +15,19 @@ const Navbar = () => {
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
-          <Link to="/" className="ml-3 text-xl font-bold text-blue-600">
-            Praveen<span className="text-gray-800">Kumar</span>
+          <Link to="/" className="ml-3 text-xl font-bold text-Red-600">
+          Kasiralla <span className="text-gray-800">PraveenKumar</span>
           </Link>
         </div>
 
-        <div className="hidden lg:block lg:w-96">
-          <div className="relative flex items-center">
-            <Search size={18} className="absolute left-3 text-gray-400" />
-            <input
-              type="text"
-              placeholder="Search projects..."
-              className="pl-10 pr-4 py-2 w-full border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
+        {/* Center Logo for large screens */}
+        <div className="hidden lg:block">
+          <Link to="/" className="text-2xl font-bold text-blue-600">
+           Kasiralla <span className="text-gray-800">PraveenKumar</span>
+          </Link>
         </div>
 
+        {/* Right side - Bell and Profile */}
         <div className="flex items-center space-x-4">
           <button className="relative p-2 text-gray-600 hover:text-blue-600">
             <Bell size={20} />
@@ -41,7 +38,7 @@ const Navbar = () => {
           </button>
           <div className="flex items-center">
             <img
-              src="/lovable-uploads/4d95e0de-e385-4537-bd3a-57ae923566b8.png"
+              src="https://lh3.googleusercontent.com/a/ACg8ocIXTDtsUnurYju24AsrV7CupP55ru6EslnOn1VhGFQ1jqwDWyxr=s576-c-no"
               alt="Profile"
               className="h-8 w-8 rounded-full border-2 border-white shadow-sm"
             />
@@ -49,6 +46,7 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile menu */}
       {mobileMenuOpen && (
         <div className="lg:hidden mt-2">
           <div className="flex flex-col space-y-2 px-2 pt-2 pb-3">
