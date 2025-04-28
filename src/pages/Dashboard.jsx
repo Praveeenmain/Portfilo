@@ -4,6 +4,8 @@ import { FolderGit2, Award, Code, BrainCircuit } from 'lucide-react';
 import StatsCard from '../components/StatsCard';
 import ProjectCard from '../components/ProjectCard';
 import { projectsData } from '../data/projectsData';
+
+
 import { 
   SidebarProvider,
   Sidebar, 
@@ -16,7 +18,7 @@ import {
 import GitHubCalendar from 'react-github-calendar';
 const Dashboard = () => {
   const featuredProjects = projectsData.slice(0, 3);
-  
+
   return (
     <SidebarProvider>
       <div className="min-h-screen flex w-full">
@@ -77,7 +79,7 @@ const Dashboard = () => {
           <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             <StatsCard 
               title="Total Projects" 
-              value="10" 
+              value={projectsData.length} 
               icon={<FolderGit2 className="h-6 w-6 text-blue-500" />} 
               color="bg-blue-50" 
             />
@@ -118,17 +120,19 @@ const Dashboard = () => {
           </section>
 
           <section className="bg-white rounded-xl shadow-sm p-6 mb-8 text-center">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
-            {`Kasiralla Praveen Kumar`} <span className="text-orange-500">LeetCode</span> Stats
-          </h2>
-          <div className="flex justify-center">
-            <img
-              src="https://leetcard.jacoblin.cool/vXvWW4XRAQ?theme=light&font=Baloo+Bhai+2"
-              alt="LeetCode Stats"
-              className="w-full max-w-md"
-            />
-          </div>
-        </section>
+  <h2 className="text-2xl font-bold text-gray-800 mb-6">
+    {`Kasiralla Praveen Kumar`} <span className="text-orange-500">LeetCode</span> Stats
+  </h2>
+  <div className="flex flex-col items-center space-y-6">
+  <img
+  src="https://leetcard.jacoblin.cool/vXvWW4XRAQ?theme=light&font=Baloo+Bhai+2"
+  alt="LeetCode Stats"
+  className="w-full max-w-md"
+/>
+  
+  </div>
+</section>
+
           <section className="bg-white rounded-xl shadow-sm p-6 mb-8 text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">
             Days I <span className="text-purple-500">Code</span> on GitHub

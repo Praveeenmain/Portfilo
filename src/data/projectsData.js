@@ -1,5 +1,22 @@
 export const projectsData = [
   {
+    id: 9,
+    title: "AI Blog Website",
+    description: "Full-featured blog platform with sentiment analysis using Hugging Face, including social features like likes, comments, and sharing.",
+    longDescription: "AI Blog Website is a comprehensive blogging platform that incorporates sentiment analysis using Hugging Face's models to provide insights into content emotions and reader reactions. Built as a full-stack application with React for the frontend, Node.js for the backend, and Python for AI capabilities, this platform includes all essential social features such as likes, comments, and sharing options. Users can post blogs with images and videos, while the platform automatically analyzes the sentiment of both the content and user comments, providing valuable feedback to content creators about how their work is being perceived.",
+    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80",
+    category: "Full Stack",
+    technologies: ["React", "Node", "Transformers", "Hugging Face","Firebase"],
+    github: "https://github.com/Praveeenmain/AiblogFrontend.git",
+    demo: "https://aiblog-frontend.vercel.app/",
+    video: "https://www.youtube.com/shorts/y17uae8WfNo",
+    highlights: [
+      "Integrated Hugging Face Transformers for sentiment analysis",
+      "Implemented real-time commenting and notification system",
+      "Created content recommendation engine based on user preferences"
+    ]
+  },
+  {
     id: 1,
     title: "Note Classifier",
     description: "An ML-powered application that automatically categorizes short notes into relevant categories like Work, Health, Reminder, Shopping, and more using text classification techniques.",
@@ -119,23 +136,7 @@ export const projectsData = [
     ]
   },
  
-  {
-    id: 9,
-    title: "AI Blog Website",
-    description: "Full-featured blog platform with sentiment analysis using Hugging Face, including social features like likes, comments, and sharing.",
-    longDescription: "AI Blog Website is a comprehensive blogging platform that incorporates sentiment analysis using Hugging Face's models to provide insights into content emotions and reader reactions. Built as a full-stack application with React for the frontend, Node.js for the backend, and Python for AI capabilities, this platform includes all essential social features such as likes, comments, and sharing options. Users can post blogs with images and videos, while the platform automatically analyzes the sentiment of both the content and user comments, providing valuable feedback to content creators about how their work is being perceived.",
-    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80",
-    category: "Full Stack",
-    technologies: ["React", "Node", "Transformers", "Hugging Face","Firebase"],
-    github: "https://github.com/praveenkumar/ai-blog",
-    demo: "https://ai-blog-platform.vercel.app/",
-    video: "https://www.youtube.com/watch?v=example9",
-    highlights: [
-      "Integrated Hugging Face Transformers for sentiment analysis",
-      "Implemented real-time commenting and notification system",
-      "Created content recommendation engine based on user preferences"
-    ]
-  },
+  
   {
     id: 10,
     title: "Evobuz",
