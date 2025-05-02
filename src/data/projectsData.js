@@ -1,5 +1,52 @@
 export const projectsData = [
+
   {
+  id: 11,
+  title: "AI Agent for Automatic Answer Generation and Storage (No-Code)",
+  description: "An AI agent built on a website that takes questions from a Google Sheet, uses Google LLM to generate answers, and automatically stores these answers in a Google Document.",
+  longDescription: "This project is centered around building an AI agent to get answers and store in google Doc",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiCW8UOnXxSyfQJCoL6W9sRsJvq5QP_bALveo7kXATDa91XZV8-5XxP_Gtccc0K4J6QYo&usqp=CAU",
+  category: "AI Automation",
+  technologies: [
+    "Google Sheet",
+    "Google LLM",
+    "Google Document",
+   "make.com"
+  ],
+  github: "",
+  demo: "",
+  video: "https://www.youtube.com/shorts/lyAvgxFrd7Q",
+  highlights: [
+    "Takes questions as input from a Google Sheet ",
+    "Uses Google LLM to generate answers",
+    "Automatically stores generated answers in a Google Document",
+    
+  ]
+},
+
+  {
+    id: 10,
+    title: "AI-Powered Social Media Post Generator (No-Code)",
+    description: "Automated system that generates daily social media posts using Hugging Face text and image models, integrated with Google Forms and Telegram Bot, built entirely with no-code tools.",
+    longDescription: "This no-code automation project creates a fully automatic social media post generator using Make.com. It integrates Google Forms for input collection, Hugging Face's text generation and image generation models for producing engaging post captions and visuals, and Telegram Bot (or optionally Instagram) for daily message delivery. By setting up a scheduler, the system can generate and send fresh content every day without manual intervention, making it perfect for daily posting on social channels. The project showcases how AI and no-code platforms can be combined to build production-ready automation pipelines without traditional coding.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdk8boloiHzunKRuG6aT9ijflXpRU40gPSw&s",
+    category: "AIAutomation",
+    technologies: ["Make.com", "Google Forms", "Hugging Face", "Telegram Bot", "Instagram API"],
+    github: "",
+    demo: "",
+    video: "https://youtube.com/shorts/ruJjb2hBpQE",
+    highlights: [
+      "Integrated Hugging Face text generation for creating post captions automatically",
+      "Used Hugging Face image generation models to produce matching social visuals",
+      "Automated daily scheduling using Make.com’s no-code scheduler",
+      "Connected Telegram Bot (or Instagram) to deliver or post content without manual work",
+      "Demonstrated scalable no-code automation combining multiple AI services"
+    ]
+  },
+  
+  {
+
+    
     id: 9,
     title: "AI Blog Website",
     description: "Full-featured blog platform with sentiment analysis using Hugging Face, including social features like likes, comments, and sharing.",

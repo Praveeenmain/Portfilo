@@ -1,23 +1,23 @@
-
 import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { projectsData } from '../data/projectsData';
 
 const Projects = () => {
   const [filter, setFilter] = useState('all');
-  
+
   const categories = [
     { id: 'all', name: 'All Projects' },
     { id: 'ML', name: 'Machine Learning' },
     { id: 'AI', name: 'AI & LLM' },
     { id: 'Full Stack', name: 'Full Stack' },
     { id: 'NLP', name: 'NLP' },
+    { id: 'AIAutomation', name: 'AI Automation' },
   ];
-  
+
   const filteredProjects = filter === 'all' 
     ? projectsData
     : projectsData.filter(project => project.category === filter);
-  
+
   return (
     <div>
       <section className="mb-10">
